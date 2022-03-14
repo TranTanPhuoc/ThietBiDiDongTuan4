@@ -23,10 +23,10 @@ public class ProductAdapter extends BaseAdapter {
     private List<Product> listProduct;
     private int positionSelect = -1;
 
-    public ProductAdapter(Context context, int idLayout, List<Product> listLanguage) {
+    public ProductAdapter(Context context, int idLayout, List<Product> listProduct) {
         this.context = context;
         this.idLayout = idLayout;
-        this.listProduct = listLanguage;
+        this.listProduct = listProduct;
     }
 
     @Override

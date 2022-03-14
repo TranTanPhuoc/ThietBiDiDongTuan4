@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tuan4">
         <activity
+            android:name=".MainActivity4_b"
+            android:exported="false" />
+        <activity
             android:name=".Main_4a"
             android:exported="true">
             <intent-filter>
